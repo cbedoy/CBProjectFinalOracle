@@ -15,11 +15,11 @@ public class MasterBussinessController {
     private static MasterBussinessController masterBussinessController;
 
     public static MasterBussinessController getInstance(){
-        if(masterBussinessController == null){
+        if(masterBussinessController == null)
             masterBussinessController = new MasterBussinessController();
-        }
         return masterBussinessController;
     }
+
 
 
 }
